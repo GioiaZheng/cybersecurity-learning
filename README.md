@@ -16,6 +16,7 @@
 - [4. Quick Start](#4-quick-start)
 - [5. Recommended Learning Sequence](#5-recommended-learning-sequence)
 - [6. Maintenance Principles](#6-maintenance-principles)
+- [7. Templates and Safety](#7-templates-and-safety)
 
 ---
 
@@ -153,3 +154,13 @@ Suggested engineering-style progression:
 - Capture not only conclusions, but also process and failure cases.
 - Prioritize script readability and reproducibility.
 - Do not commit flags, credentials, or sensitive data.
+
+---
+
+## 7. Templates and Safety
+
+- Standard writeup template: [`templates/writeup.md`](templates/writeup.md)
+- Pre-commit safety checklist: [`SECURITY_CHECKLIST.md`](SECURITY_CHECKLIST.md)
+
+Writeups should keep the practical reasoning reproducible while removing flags,
+credentials, private infrastructure details, and account-specific data.
