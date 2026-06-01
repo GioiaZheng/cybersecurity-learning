@@ -161,6 +161,7 @@ Suggested engineering-style progression:
 
 - Standard writeup template: [`templates/writeup.md`](templates/writeup.md)
 - Pre-commit safety checklist: [`SECURITY_CHECKLIST.md`](SECURITY_CHECKLIST.md)
+- Automated repository safety scan: `python scripts/security_review.py`
 
 Writeups should keep the practical reasoning reproducible while removing flags,
 credentials, private infrastructure details, and account-specific data.

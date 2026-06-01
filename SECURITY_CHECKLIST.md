@@ -40,9 +40,12 @@ Recommended local checks:
 ```bash
 git status --short
 git diff --check
+python scripts/security_review.py
+python -m unittest discover -s tests
 ```
 
-If available, run a secret scanner before pushing.
+The GitHub Actions security review runs the same repository scanner and tests on
+pushes and pull requests.
 
 ## Disclosure Boundary
 
